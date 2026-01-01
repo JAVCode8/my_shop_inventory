@@ -36,11 +36,11 @@ export function Card({ product, deleteProduct, addQuantity, minusQuantity }) {
 
         <div className="flex gap-3 items-center">
           <button className="bg-[#e3e3e3] p-4 rounded-full cursor-pointer" onClick={() => {addQuantity(product.id)}}>
-            <img src="/plus.png" width={25} alt="Increase" />
+            <img src="plus.png" width={25} alt="Increase" />
           </button>
 
           <button className="bg-[#e3e3e3] p-4 rounded-full cursor-pointer" onClick={() => {minusQuantity(product.id)}}>
-            <img src="/minus-sign.png" width={25} alt="Decrease" />
+            <img src="minus-sign.png" width={25} alt="Decrease" />
           </button>
         </div>
       </div>
